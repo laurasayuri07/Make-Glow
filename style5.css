@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f0ff; 
+    color: #4b0082; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    background: linear-gradient(135deg, #7d1485, #dfadf5);
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0.5em 0;
+   
+}
+
+fieldset {
+    border: 2px solid #534c94; 
+    border-radius: 10px; 
+    padding: 20px;
+    background: linear-gradient(135deg, #e4bce7, #a474b9);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    height: 200px;
+    width: 500px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 2px solid #6a5acd; 
+    border-radius: 5px;
+    width: 200px; 
+    margin-bottom: 10px;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+
+button {
+    background-color: #8a2be2; 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 200px;
+}
+button:hover {
+    background-color: #6a29a7; 
+}
+
+
+#cidade, #sobrenome, #nome, #pais {
+    color: #efd9f8;
+    
+}
+
+#erro {
+    text-align: center;
+}

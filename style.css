@@ -1,0 +1,77 @@
+body, h1, h2, p, button, fieldset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e0aaff, #c2a2d5); /* Gradiente lilás e roxo */
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+
+h1 {
+    font-size: 2.8rem;
+    color: #7d27ac; 
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 90px;
+}
+
+
+main {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+fieldset {
+    border: 2px solid #d4a8e4; 
+    border-radius: 12px;
+    padding: 2rem;
+    background: #ffffff; 
+    width: 100%;
+    max-width: 800px; 
+    margin-bottom: 2rem;
+}
+
+
+h2 {
+    font-size: 2rem;
+    color: #6a0dad;
+    margin-bottom: 1rem;
+}
+
+
+p {
+    font-size: 1.1rem;
+    color: #380c8a;
+    line-height: 1.6;
+}
+
+
+button {
+    background: #7f5fc2; 
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin: 0.5rem; 
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+
+button:hover {
+    background: #6a0dad; 
+    transform: scale(1.05); 
+}

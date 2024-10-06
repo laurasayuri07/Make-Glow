@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #800000, #000000);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+
+h1 {
+    cursor: pointer;
+    color: #800000; 
+}
+
+
+#imagem {
+    margin: 20px 0;
+    
+}
+
+#NomeDaMusica, #Lancamento {
+    font-size: 18px;
+    color: #333;
+}
+
+
+.buttons {
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+button {
+    background-color: #800000; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5a0000; 
+}
+
+
+img {
+    border-radius: 10px;
+}
+
